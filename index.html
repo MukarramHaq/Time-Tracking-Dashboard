@@ -6,18 +6,12 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Time tracking dashboard</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Report for
+  <!-- Report for
   Jeremy Robson
 
   Daily
@@ -25,51 +19,170 @@
   Monthly
 
   Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
+  5hrs daily
+  Previous - 7hrs  daily
+  32hrs weekly
+  Previous - 36hrs weekly
+  103hrs monthly
+  Previous - 128hrs monthly
 
   Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
+  1hr daily
+  Previous - 2hrs daily
+  10hrs weekly
+  Previous - 8hrs weekly
+  23hrs monthly
+  Previous - 29hrs monthly
 
   Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
+  0hrs daily
+  Previous - 1hr daily
+  4hrs weekly
+  Previous - 7hrs weekly
+  13hrs monthly
+  Previous - 19hrs monthly
 
   Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
+  1hr daily
+  Previous - 1hr daily
+  4hrs weekly
+  Previous - 5hrs weekly
+  11hrs monthly
+  Previous - 18hrs monthly
 
   Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
+  1hr daily
+  Previous - 3hrs daily
+  5hrs weekly
+  Previous - 10hrs weekly
+  21hrs monthly
+  Previous - 23hrs monthly
 
   Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
+  0hrs daily
+  Previous - 1hr daily
+  2hrs weekly
+  Previous - 2hrs weekly
+  7hrs monthly
+  Previous - 11hrs monthly -->
+</head>
+<body>
+  
+  <main class="main">
+    <div class="grid-container">
+      <!-- User Card -->
+      <div class="user">
+        <div class="user__info">
+          <img class="user__image" src="images/image-jeremy.png" alt="headshot of jeremy">
+          <div class="user__flex-group">
+            <p>Report for</p>
+            <h3>Jeremy Robson</h3>
+          </div>
+        </div>
+        <div class="timeline">
+          <button>Daily</button>
+          <button>Weekly</button>
+          <button>Monthly</button>
+        </div>
+      </div>
+      <!-- Work Card -->
+       <div class="work-card sizes">
+        <div class="work-card__image">
+          <!-- <img src="images/icon-work.svg" alt=""> -->
+        </div>
+        <div class="work-card__info">
+          <div class="stats-top">
+            <h4>Work</h4>
+            <img src="images/icon-ellipsis.svg" alt="three dots">
+          </div>
+          <div class="stats-bottom">
+            <p class="time">5hrs</p>
+            <p class="previous-time">Previous - 7hrs</p>
+          </div>
+        </div>
+       </div>
+       <!-- Play Card -->
+       <div class="play-card sizes">
+        <div class="play-card__image">
+          <!-- <img src="images/icon-work.svg" alt=""> -->
+        </div>
+        <div class="play-card__info">
+          <div class="stats-top">
+            <h4>Play</h4>
+            <img src="images/icon-ellipsis.svg" alt="three dots">
+          </div>
+          <div class="stats-bottom">
+            <p class="time">1hrs</p>
+            <p class="previous-time">Previous - 2hrs</p>
+          </div>
+        </div>
+       </div>
+       <!-- Study Card -->
+       <div class="study-card sizes">
+        <div class="study-card__image">
+          <!-- <img src="images/icon-work.svg" alt=""> -->
+        </div>
+        <div class="play-card__info">
+          <div class="stats-top">
+            <h4>Study</h4>
+            <img src="images/icon-ellipsis.svg" alt="three dots">
+          </div>
+          <div class="stats-bottom">
+            <p class="time">0hrs</p>
+            <p class="previous-time">Previous - 1hrs</p>
+          </div>
+        </div>
+       </div>
+       <!-- Exercise Card -->
+       <div class="exercise-card sizes">
+        <div class="exercise-card__image">
+          <!-- <img src="images/icon-work.svg" alt=""> -->
+        </div>
+        <div class="exercise-card__info">
+          <div class="stats-top">
+            <h4>Exercise</h4>
+            <img src="images/icon-ellipsis.svg" alt="three dots">
+          </div>
+          <div class="stats-bottom">
+            <p class="time">1hrs</p>
+            <p class="previous-time">Previous - 1hrs</p>
+          </div>
+        </div>
+       </div>
+       <!-- Social Card -->
+       <div class="social-card sizes">
+        <div class="social-card__image">
+          <!-- <img src="images/icon-work.svg" alt=""> -->
+        </div>
+        <div class="social-card__info">
+          <div class="stats-top">
+            <h4>Social</h4>
+            <img src="images/icon-ellipsis.svg" alt="three dots">
+          </div>
+          <div class="stats-bottom">
+            <p class="time">1hrs</p>
+            <p class="previous-time">Previous - 3hrs</p>
+          </div>
+        </div>
+       </div>
+       <!-- Self Care Card -->
+       <div class="selfcare-card sizes">
+        <div class="selfcare-card__image">
+          <!-- <img src="images/icon-work.svg" alt=""> -->
+        </div>
+        <div class="selfcare-card__info">
+          <div class="stats-top">
+            <h4>Self Care</h4>
+            <img src="images/icon-ellipsis.svg" alt="three dots">
+          </div>
+          <div class="stats-bottom">
+            <p class="time">0hrs</p>
+            <p class="previous-time">Previous - 1hrs</p>
+          </div>
+        </div>
+       </div>
+    </div>
+  </main>
+
 </body>
 </html>
