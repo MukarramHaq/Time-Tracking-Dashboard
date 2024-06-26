@@ -80,9 +80,9 @@
           </div>
         </div>
         <div class="timeline">
-          <button>Daily</button>
-          <button>Weekly</button>
-          <button>Monthly</button>
+          <button id="daily-btn">Daily</button>
+          <button id="weekly-btn">Weekly</button>
+          <button id="monthly-btn">Monthly</button>
         </div>
       </div>
       <!-- Work Card -->
@@ -96,8 +96,8 @@
             <img src="images/icon-ellipsis.svg" alt="three dots">
           </div>
           <div class="stats-bottom">
-            <p class="time">5hrs</p>
-            <p class="previous-time">Previous - 7hrs</p>
+            <p id="work-daily" class="time">0hrs</p>
+            <p class="previous-time" id="work-previous">0hrs</p>
           </div>
         </div>
        </div>
@@ -112,8 +112,8 @@
             <img src="images/icon-ellipsis.svg" alt="three dots">
           </div>
           <div class="stats-bottom">
-            <p class="time">1hrs</p>
-            <p class="previous-time">Previous - 2hrs</p>
+            <p id="play-daily" class="time">0hrs</p>
+            <p id="play-previous" class="previous-time">Previous - 0hrs</p>
           </div>
         </div>
        </div>
@@ -128,8 +128,8 @@
             <img src="images/icon-ellipsis.svg" alt="three dots">
           </div>
           <div class="stats-bottom">
-            <p class="time">0hrs</p>
-            <p class="previous-time">Previous - 1hrs</p>
+            <p id="study-current" class="time">0hrs</p>
+            <p id="study-previous" class="previous-time">Previous - 0hrs</p>
           </div>
         </div>
        </div>
@@ -144,8 +144,8 @@
             <img src="images/icon-ellipsis.svg" alt="three dots">
           </div>
           <div class="stats-bottom">
-            <p class="time">1hrs</p>
-            <p class="previous-time">Previous - 1hrs</p>
+            <p id="exercise-current" class="time">0hrs</p>
+            <p id="exercise-previous" class="previous-time">Previous - 0hrs</p>
           </div>
         </div>
        </div>
@@ -160,8 +160,8 @@
             <img src="images/icon-ellipsis.svg" alt="three dots">
           </div>
           <div class="stats-bottom">
-            <p class="time">1hrs</p>
-            <p class="previous-time">Previous - 3hrs</p>
+            <p id="social-current" class="time">0hrs</p>
+            <p id="social-previous" class="previous-time">Previous - 0hrs</p>
           </div>
         </div>
        </div>
@@ -176,13 +176,15 @@
             <img src="images/icon-ellipsis.svg" alt="three dots">
           </div>
           <div class="stats-bottom">
-            <p class="time">0hrs</p>
-            <p class="previous-time">Previous - 1hrs</p>
+            <p id="selfcare-current" class="time">0hrs</p>
+            <p id="selfcare-previous" class="previous-time">Previous - 0hrs</p>
           </div>
         </div>
        </div>
     </div>
   </main>
+
+  <script src="index.js"></script>
 
 </body>
 </html>
