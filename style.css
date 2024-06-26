@@ -259,7 +259,7 @@ body{
     }
 }
 
-@media (min-width: 62.5rem){
+@media (min-width: 67.5625rem){
     .grid-container{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
